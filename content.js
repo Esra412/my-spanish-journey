@@ -7,7 +7,7 @@ window.JOURNEY_CONTENT = {
   },
   posts: [
     {
-      slug: "finishing-the-week-and-evening-with-poli-and-friends", date: "2026-10-30", category: "Experiences", location: "Móra d’Ebre" , image: "assets/images/6_paiva_kuva.jpg",
+      slug: "finishing-the-week-and-evening-with-poli-and-friends", date: "2026-10-30", category: "Experiences", location: "Móra d’Ebre" , image: "6_paiva_kuva.jpg",
       title: { en: "Finishing the week’s work and an evening with Poli and friends", fi: "Työn viimeistelyä ja illanviettoa Polin ja muiden kanssa", tr: "Haftanın işlerini tamamlamak ve Poli ve arkadaşlarıyla akşam" },
       summary: {
         en: "We finished the week's work with the girls, spent a relaxed evening with Poli and other students, and then kept working a little at home.",
@@ -37,7 +37,7 @@ window.JOURNEY_CONTENT = {
       tags: ["daily life", "work in progress"], imageAlt: { en: "Illustrated placeholder for finishing the week’s tasks and a relaxed evening with friends", fi: "Kuvituksellinen paikkamerkki viikon työtehtävien viimeistelemisestä ja rentouttavasta iltasta ystävien kanssa", tr: "Hafta işlerini tamamlamak ve arkadaşlarla sakin bir akşam için temsili çizim" }
     },
     {
-      slug: "second-rest-day-and-shared-cooking", date: "2026-11-01", category: "Experiences", location: "Móra d’Ebre", image: "assets/images/8_paiva_kuva.jpg",
+      slug: "second-rest-day-and-shared-cooking", date: "2026-11-01", category: "Experiences", location: "Móra d’Ebre", image: "8_paiva_kuva.jpg",
       title: { en: "A second rest day and a shared cooking moment", fi: "Toinen lepopäivä ja yhteinen kokkaushetki", tr: "İkinci dinlenme günü ve ortak yemek hazırlama anı" },
       summary: {
         en: "We took another calm rest day, went grocery shopping together and enjoyed a homemade meal cooked by Emilia before the new work week began.",
@@ -64,7 +64,7 @@ window.JOURNEY_CONTENT = {
       tags: ["daily life", "rest"], imageAlt: { en: "Illustrated placeholder for another rest day and a shared cooking moment", fi: "Kuvituksellinen paikkamerkki toisesta lepopäivästä ja yhteisestä kokkaushetkestä", tr: "İkinci bir dinlenme günü ve ortak yemek hazırlama anı için temsili çizim" }
     },
     {
-      slug: "rest-day-and-homey-moments", date: "2026-10-31", category: "Experiences", location: "Móra d’Ebre", image: "assets/images/7_paiva_kuva.jpg",
+      slug: "rest-day-and-homey-moments", date: "2026-10-31", category: "Experiences", location: "Móra d’Ebre", image: "7_paiva_kuva.jpg",
       title: { en: "A deserved rest day and cosy moments at home", fi: "Ansaittu lepopäivä ja kotoisia hetkiä", tr: "Hakkıyla dinlenilen bir gün ve evdeki sıcak anlar" },
       summary: {
         en: "After an intense first week in a new country, we took a full rest day, spent time outdoors, and recharged at home while catching up with family and friends.",
@@ -91,7 +91,7 @@ window.JOURNEY_CONTENT = {
       tags: ["daily life", "reflection"], imageAlt: { en: "Illustrated placeholder for a well-earned rest day and peaceful home moments", fi: "Kuvituksellinen paikkamerkki ansaitusta lepopäivästä ja rauhallisista kodinhetkistä", tr: "Hak edilmiş bir dinlenme günü ve evdeki huzurlu anlar için temsili çizim" }
     },
     {
-      slug: "finishing-the-week-and-evening-with-poli-and-friends", date: "2026-10-30", category: "Experiences", location: "Móra d’Ebre", image: "assets/images/5_paiva_kuva.jpg",
+      slug: "meeting-with-landlord-and-starting-remote-work", date: "2026-10-29", category: "Experiences", location: "Móra d’Ebre", image: "5_paiva_kuva.jpg",
       title: { en: "Meeting the landlord and starting the internship work", fi: "Tapaaminen asunnonomistajan kanssa ja työharjoittelun alku", tr: "Ev sahibiyle görüşme ve staj çalışmasının başlangıcı" },
       summary: {
         en: "We met the landlord, presented our PowerPoint to Mireia and the students, and then began remote work while planning the coming days in the internship.",
@@ -118,7 +118,7 @@ window.JOURNEY_CONTENT = {
       tags: ["daily life", "work in progress"], imageAlt: { en: "Illustrated placeholder for the meeting with the landlord and the start of remote work", fi: "Kuvituksellinen paikkamerkki tapaamisesta asunnonomistajan kanssa ja etätyön alkamisesta", tr: "Ev sahibiyle görüşme ve uzaktan çalışmanın başlangıcı için temsili çizim" }
     },
     {
-      slug: "spanish-lunch-with-mireia-and-teachers", date: "2026-10-28", category: "Experiences", location: "Móra d’Ebre", image: "assets/images/4_paiva_kuva.jpg",
+      slug: "spanish-lunch-with-mireia-and-teachers", date: "2026-10-28", category: "Experiences", location: "Móra d’Ebre", image: "4_paiva_kuva.jpg",
       title: { en: "A Spanish lunch with Mireia and the teachers", fi: "Espanjalainen lounas Mireian ja opettajien kanssa", tr: "Mireia ve öğretmenlerle İspanyol öğle yemeği" },
       summary: {
         en: "We finally slept in, had a traditional Spanish lunch with Mireia and the teachers, and learned how pa amb tomàquet is prepared.",
@@ -147,7 +147,7 @@ window.JOURNEY_CONTENT = {
       tags: ["daily life", "culture"], imageAlt: { en: "Illustrated placeholder for a Spanish lunch with Mireia and the teachers", fi: "Kuvituksellinen paikkamerkki espanjalaisesta lounaasta Mireian ja opettajien kanssa", tr: "Mireia ve öğretmenlerle İspanyol öğle yemeği için temsili çizim" }
     },
     {
-      slug: "meeting-in-barcelona-and-arrival-in-mora-debre", date: "2026-10-26", category: "Experiences", location: "Barcelona · Móra d’Ebre", image: "assets/images/2_paiva_kuva.jpeg",
+      slug: "meeting-in-barcelona-and-arrival-in-mora-debre", date: "2026-10-26", category: "Experiences", location: "Barcelona · Móra d’Ebre", image: "2_paiva_kuva.jpeg",
       title: { en: "Meeting in Barcelona and arrival in Móra d’Ebre", fi: "Tapaaminen Barcelonassa ja saapuminen Móra d’Ebreen", tr: "Barselona'da buluşma ve Móra d’Ebre'ye varış" },
       summary: {
         en: "After a meeting with our employer in Barcelona, we bought train tickets, travelled onward to Móra la Nova and walked to our Airbnb in Móra d’Ebre.",
@@ -180,7 +180,7 @@ window.JOURNEY_CONTENT = {
       tags: ["work in progress", "daily life"], imageAlt: { en: "Illustrated placeholder for a meeting in Barcelona and arrival in Móra d’Ebre", fi: "Kuvituksellinen paikkamerkki tapaamisesta Barcelonassa ja saapumisesta Móra d’Ebreen", tr: "Barselona'daki buluşma ve Móra d’Ebre’ye varış için temsili çizim" }
     },
     {
-      slug: "getting-to-know-mora-debre-and-the-school", date: "2026-10-27", category: "Experiences", location: "Móra d’Ebre" , image: "assets/images/3_paiva_kuva.jpg",
+      slug: "getting-to-know-mora-debre-and-the-school", date: "2026-10-27", category: "Experiences", location: "Móra d’Ebre" , image: "3_paiva_kuva.jpg",
       title: { en: "Getting to know Móra d’Ebre and the school", fi: "Tutustuminen Móra d’Ebreen ja oppilaitokseen", tr: "Móra d’Ebre ve okulunu tanımak" },
       summary: {
         en: "We walked to the school, met our coordinator Mireia and explored the town with local students before a relaxed evening in Móra d’Ebre.",
@@ -207,7 +207,7 @@ window.JOURNEY_CONTENT = {
       tags: ["daily life", "work in progress"], imageAlt: { en: "Illustrated placeholder for getting to know Móra d’Ebre and the school", fi: "Kuvituksellinen paikkamerkki tutustumisesta Móra d’Ebreen ja oppilaitokseen", tr: "Móra d’Ebre ve okulu tanımaya dair temsili çizim" }
     },
     {
-      slug: "first-day-in-barcelona", date: "2026-10-25", category: "Experiences", location: "Barcelona", image: "assets/images/1_paiva_kuva.jpeg",
+      slug: "first-day-in-barcelona", date: "2026-10-25", category: "Experiences", location: "Barcelona", image: "1_paiva_kuva.jpeg",
       title: { en: "The First Day in Barcelona", fi: "Ensimmäinen päivä Barcelonassa", tr: "Barselona'daki ensimmäinen päivä" },
       summary: {
         en: "A long travel day brought homesickness, a massage-chair test, a confusing Uber pickup and an exhausted first night in Barcelona.",
@@ -251,11 +251,11 @@ window.JOURNEY_CONTENT = {
     }
   ],
   gallery: [
-    { id: "moment-1", category: "Everyday life", caption: { en: "A place to add a first memory", fi: "Paikka ensimmäiselle muistolle", tr: "İlk anıyı eklemek için bir yer" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "assets/images/photo-placeholder.svg" },
-    { id: "moment-2", category: "Travel", caption: { en: "A view from the journey", fi: "Maisema matkan varrelta", tr: "Yolculuktan bir manzara" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "assets/images/photo-placeholder.svg" },
-    { id: "moment-3", category: "Culture", caption: { en: "Details worth keeping", fi: "Säilyttämisen arvoisia yksityiskohtia", tr: "Saklamaya değer ayrıntılar" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "assets/images/photo-placeholder.svg" },
-    { id: "moment-4", category: "Experiences", caption: { en: "An ordinary day, remembered", fi: "Tavallinen päivä muistona", tr: "Hatırlanan sıradan bir gün" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "assets/images/photo-placeholder.svg" },
-    { id: "moment-5", category: "Travel", caption: { en: "Somewhere new to explore", fi: "Uusi paikka tutkittavaksi", tr: "Keşfedilecek yeni bir yer" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "assets/images/photo-placeholder.svg" },
-    { id: "moment-6", category: "Daily life", caption: { en: "A small part of the story", fi: "Pieni osa tarinaa", tr: "Hikâyenin küçük bir parçası" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "assets/images/photo-placeholder.svg" }
+    { id: "moment-1", category: "Everyday life", caption: { en: "A place to add a first memory", fi: "Paikka ensimmäiselle muistolle", tr: "İlk anıyı eklemek için bir yer" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "photo-placeholder.svg" },
+    { id: "moment-2", category: "Travel", caption: { en: "A view from the journey", fi: "Maisema matkan varrelta", tr: "Yolculuktan bir manzara" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "photo-placeholder.svg" },
+    { id: "moment-3", category: "Culture", caption: { en: "Details worth keeping", fi: "Säilyttämisen arvoisia yksityiskohtia", tr: "Saklamaya değer ayrıntılar" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "photo-placeholder.svg" },
+    { id: "moment-4", category: "Experiences", caption: { en: "An ordinary day, remembered", fi: "Tavallinen päivä muistona", tr: "Hatırlanan sıradan bir gün" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "photo-placeholder.svg" },
+    { id: "moment-5", category: "Travel", caption: { en: "Somewhere new to explore", fi: "Uusi paikka tutkittavaksi", tr: "Keşfedilecek yeni bir yer" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "photo-placeholder.svg" },
+    { id: "moment-6", category: "Daily life", caption: { en: "A small part of the story", fi: "Pieni osa tarinaa", tr: "Hikâyenin küçük bir parçası" }, alt: { en: "Illustrated placeholder artwork; replace with a personal photograph", fi: "Kuvituksellinen paikkamerkki; korvaa henkilökohtaisella valokuvalla", tr: "Temsili çizim; kişisel bir fotoğrafla değiştirin" }, image: "photo-placeholder.svg" }
   ]
 };

@@ -103,7 +103,7 @@
   function postCard(post, compact = false) {
     const title = translated(post.title);
     const summary = translated(post.summary);
-    const imageSrc = post.image || "assets/images/photo-placeholder.svg";
+    const imageSrc = post.image || "photo-placeholder.svg";
     return `<article class="${compact ? "feature-card" : "journal-card"} reveal">
       <a class="image-frame" href="#/journal/${encodeURIComponent(post.slug)}" tabindex="-1" aria-hidden="true">
         <img src="${escapeHTML(imageSrc)}" alt="" loading="lazy">
@@ -134,7 +134,7 @@
         </div>
       </div>
       <figure class="hero-image">
-        <img src="assets/images/photo-placeholder.svg" alt="${escapeHTML(t("placeholderPhoto"))}" fetchpriority="high">
+        <img src="photo-placeholder.svg" alt="${escapeHTML(t("placeholderPhoto"))}" fetchpriority="high">
         <figcaption class="image-note">${escapeHTML(t("placeholderPhoto"))}</figcaption>
       </figure>
       <div class="intro-band reveal">
@@ -158,7 +158,7 @@
         </div>
       </section>
       <section class="section split-story">
-        <div class="image-frame"><img src="assets/images/photo-placeholder.svg" alt="${escapeHTML(t("placeholderPhoto"))}" loading="lazy"></div>
+        <div class="image-frame"><img src="photo-placeholder.svg" alt="${escapeHTML(t("placeholderPhoto"))}" loading="lazy"></div>
         <div><p class="eyebrow">${escapeHTML(t("storyEyebrow"))}</p><h2>${escapeHTML(t("storyTitle"))}</h2>
           <p>${escapeHTML(t("storyText"))}</p><a class="text-link" href="#/spain">${escapeHTML(t("discoverSpain"))} →</a>
         </div>
@@ -227,7 +227,7 @@
     const minutes = Math.max(1, Math.ceil(wordCount / 220));
     const previous = posts[index - 1];
     const next = posts[index + 1];
-    const imageSrc = post.image || "assets/images/photo-placeholder.svg";
+    const imageSrc = post.image || "photo-placeholder.svg";
     return `<article class="page article">
       <a class="article-back" href="#/journal">${escapeHTML(t("backToJournal"))}</a>
       <p class="eyebrow">${escapeHTML(categoryName(post.category))}${post.isExample ? ` · ${escapeHTML(t("sampleEntry"))}` : ""}</p>
