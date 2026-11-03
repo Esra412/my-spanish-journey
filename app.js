@@ -134,8 +134,7 @@
         </div>
       </div>
       <figure class="hero-image">
-        <img src="photo-placeholder.svg" alt="${escapeHTML(t("placeholderPhoto"))}" fetchpriority="high">
-        <figcaption class="image-note">${escapeHTML(t("placeholderPhoto"))}</figcaption>
+        <img src="paa_kuva.jpeg" alt="${escapeHTML(t("heroImageAlt"))}" fetchpriority="high">
       </figure>
       <div class="intro-band reveal">
         <div><p class="eyebrow">${escapeHTML(t("openingEyebrow"))}</p><h2>${escapeHTML(t("openingTitle"))}</h2></div>
