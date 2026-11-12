@@ -185,8 +185,8 @@
       <section class="editorial-columns">
         <div><p class="eyebrow">${escapeHTML(t("overviewTitle"))}</p></div>
         <dl class="fact-list">
-          ${[["host", "[Add organisation name]"], ["location", "[Add city, Spain]"], ["period", "[Add internship dates]"], ["role", "[Add role or department]"]]
-            .map(([label, value]) => `<div><dt>${escapeHTML(t(label))}</dt><dd>${escapeHTML(value)}</dd></div>`).join("")}
+          ${[["host", "internshipHostValue"], ["location", "internshipLocationValue"], ["period", "internshipPeriodValue"], ["role", "internshipRoleValue"]]
+            .map(([label, value]) => `<div><dt>${escapeHTML(t(label))}</dt><dd>${escapeHTML(t(value))}</dd></div>`).join("")}
         </dl>
       </section>
       <section class="editorial-columns">
