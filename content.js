@@ -7,6 +7,222 @@ window.JOURNEY_CONTENT = {
   },
   posts: [
     {
+      slug: "breakthrough-successful-model-training-and-barcelona-bookings", date: "2026-11-08", category: "Internship", location: "Móra d’Ebre", image: "8_marras.jpg",
+      title: { en: "A Breakthrough, Successful Model Training and Barcelona Bookings", fi: "Läpimurto, onnistunut mallikoulutus ja Barcelonan reissun varaukset", tr: "Atılım, başarılı model eğitimi ve Barselona rezervasyonları" },
+      summary: {
+        en: "After Emilio fixed our remote access, I completed simulation task #8 and achieved 100% success across 30 episodes. I also documented the team workflow, while the girls and I booked our Barcelona trip.",
+        fi: "Emilion korjattua etäyhteyden sain simulaatiotehtävän #8 valmiiksi ja saavutin 100 % onnistumistarkkuuden 30 episodissa. Dokumentoin myös tiimin työnkulut, ja varasimme tyttöjen kanssa Barcelonan-matkan.",
+        tr: "Emilio uzaktan erişim sorununu çözdükten sonra simülasyon görevi #8'i tamamlayıp 30 bölümde %100 başarı elde ettim. Ekip iş akışını da belgeledim; kızlarla Barselona gezimizi ayırttık."
+      },
+      paragraphs: {
+        en: [
+          "The day began with the message we had been waiting for from our supervisor, Emilio, who had sorted out the remote connection problems. He advised us to connect directly to the training environment by running `ssh openarm-train` from the WSL terminal.",
+          "At first, the connection still briefly returned a port 22227 error (`Connection refused`), but it turned out Emilio was adding a new one-terabyte hard drive to the server at that very moment. As soon as the installation was complete, I tried connecting again, and everything worked like a dream!",
+          "Once I finally had proper access to the environment, things moved quickly. I generated the simulation data and started training the ACT model in the background. I kept a close eye on memory usage and the training progress, and at last the long wait and all the earlier technical troubleshooting paid off: I completed task #8!",
+          "The training results were fantastic. The 40,000-step model had been sensitive to changes in the cube’s position, succeeding in 43% of trials at random positions. With 80,000 training steps, we reached a perfect 100% success rate (30/30 episodes), both in the baseline test and in the more challenging test with ±5 cm position variation.",
+          "After wrapping up the technical work, I brought together the whole team’s workflows, GPU schedule, system architecture, training metrics and responsibilities into a comprehensive English-language master document (the M1 report). It serves as an official record and progress report for both the workplace and our team. It felt incredibly rewarding to bring such a big piece of work to completion!",
+          "Meanwhile, the girls went for a couple-of-hours walk across the bridge in Móra la Nova. After they got back, we all sat down together and sorted out the bookings for our upcoming Barcelona trip: we booked accommodation for three nights, from 20 to 23 November, and bought both our outbound and return train tickets. Finally, we excitedly planned the weekend and listed all the places and sights we definitely want to visit in Barcelona. It felt great to end the week having got all of that done!"
+        ],
+        fi: [
+          "Päivä alkoi odotetulla viestillä työnohjaajaltamme Emiliolta, joka oli selvittänyt etäyhteysongelmat. Hän neuvoi meitä ottamaan yhteyden suoraan koulutusympäristöön komennolla `ssh openarm-train` WSL-terminaalin kautta.",
+          "Aluksi yhteys herjasi vielä hetken portin 22227 virhettä (`Connection refused`), mutta selvisi, että Emilio oli juuri samalla hetkellä lisäämässä palvelimelle uutta yhden teratavun kiintolevyä. Heti kun asennus oli valmis ja kokeilin yhteyttä uudelleen, kaikki alkoi toimia kuin unelma!",
+          "Kun vihdoin pääsin kunnolla käsiksi ympäristöön, hommat etenivät vauhdilla. Generoin simulaatiodatan valmiiksi ja käynnistin varsinaisen ACT-tekoälymallin koulutuksen taustalla. Seurasin tarkasti muistin käyttöä ja ajon etenemistä, ja lopulta pitkä odotus sekä kaikki aiempi tekninen säätäminen palkittiin: sain tehtävän #8 kokonaan valmiiksi!",
+          "Koulutuksen tulokset olivat upeita. 40 000 askeleen malli oli vielä herkkä kuution paikan vaihtelulle ja onnistui satunnaisissa sijainneissa 43-prosenttisesti. Kun koulutusta jatkettiin 80 000 askeleeseen, saavutimme täydellisen 100 prosentin onnistumistarkkuuden (30/30 episodia) sekä perustestissä että haastavammassa ±5 cm:n sijaintivaihtelutestissä.",
+          "Kun tekninen suoritus oli paketissa, kokosin koko tiimin työnkulut, näytönohjaimen käyttövuorolistan, järjestelmäarkkitehtuurin, koulutusmetriikat ja vastuualueet kattavaksi englanninkieliseksi päädokumentiksi eli M1-raportiksi. Se toimii virallisena näyttö- ja seurantaraporttina sekä työpaikalle että meille. Tuntui todella palkitsevalta saada näin iso kokonaisuus maaliin!",
+          "Sillä välin tytöt kävivät parin tunnin lenkillä sillan toisella puolella Móra la Novassa. Lenkin jälkeen istuimme kaikki yhdessä alas ja hoidimme tulevan Barcelonan-reissun varaukset kerralla kuntoon: varasimme majoituksen kolmeksi yöksi 20.–23. marraskuuta ja ostimme valmiiksi sekä meno- että paluujunaliput. Lopuksi suunnittelimme vielä innoissamme viikonlopun ohjelmaa ja listasimme kaikki paikat ja nähtävyydet, joissa haluamme ehdottomasti Barcelonassa käydä. Kaiken tämän jälkeen oli todella hyvä fiilis päättää viikko!"
+        ],
+        tr: [
+          "Gün, danışmanımız Emilio'dan beklediğimiz haberle başladı. Uzaktan bağlantı sorunlarını çözmüştü. WSL terminalinden `ssh openarm-train` komutunu çalıştırarak eğitim ortamına doğrudan bağlanmamızı önerdi.",
+          "Başta bağlantı 22227 numaralı bağlantı noktasında (`Connection refused`) hatası vermeye devam etti. Ancak Emilio'nun tam o sırada sunucuya bir terabaytlık yeni bir sabit disk eklediği ortaya çıktı. Kurulum tamamlanır tamamlanmaz yeniden bağlanmayı denedim ve her şey harika şekilde çalıştı!",
+          "Ortamıma sonunda düzgün erişim sağlayınca işler hızla ilerledi. Simülasyon verilerini oluşturdum ve ACT modelinin asıl eğitimini arka planda başlattım. Bellek kullanımını ve eğitimin ilerleyişini dikkatle takip ettim. Sonunda uzun bekleyiş ve önceki tüm teknik uğraşlar karşılığını verdi: #8 numaralı görevi tamamen bitirdim!",
+          "Eğitim sonuçları müthişti. 40.000 adımlık model, küpün konumundaki değişikliklere duyarlıydı ve rastgele konumlardaki denemelerin %43'ünde başarılı oluyordu. Eğitimi 80.000 adıma çıkardığımızda hem temel testte hem de daha zor olan ±5 cm konum değişikliği testinde kusursuz %100 başarı oranına (30/30 bölüm) ulaştık.",
+          "Teknik işi tamamladıktan sonra tüm ekibin iş akışlarını, GPU kullanım sırasını, sistem mimarisini, eğitim ölçümlerini ve sorumlulukları kapsamlı bir İngilizce ana belgede (M1 raporu) bir araya getirdim. Bu belge hem iş yeri hem de ekibimiz için resmî bir kanıt ve ilerleme raporu niteliğinde. Böylesine büyük bir işi tamamlamak gerçekten çok ödüllendiriciydi!",
+          "Bu sırada kızlar köprünün diğer tarafındaki Móra la Nova'da birkaç saatlik yürüyüşe çıktılar. Döndüklerinde hep birlikte oturup Barselona gezimizin rezervasyonlarını hallettik: 20-23 Kasım tarihleri arasında üç gecelik konaklama ayarladık ve gidiş-dönüş tren biletlerini aldık. Son olarak hafta sonu planımızı heyecanla yaptık ve Barselona'da mutlaka görmek istediğimiz yerleri ve turistik noktaları listeledik. Bütün bunların ardından haftayı bitirmek harika hissettirdi!"
+        ]
+      },
+      tags: ["internship", "robotics", "programming", "travel"],
+      imageAlt: { en: "Illustrated placeholder for successful robot model training and Barcelona trip bookings", fi: "Kuvituksellinen paikkamerkki onnistuneesta robottimallin koulutuksesta ja Barcelonan-matkan varauksista", tr: "Başarılı robot modeli eğitimi ve Barselona gezisi rezervasyonları için temsili çizim" }
+    },
+    {
+      slug: "technical-troubleshooting-ssh-and-barcelona-plans", date: "2026-11-07", category: "Internship", location: "Móra d’Ebre", image: "7_marras.jpg",
+      title: { en: "Technical Troubleshooting, SSH Setup and Barcelona Plans", fi: "Teknistä säätöä, SSH-asetuksia ja matkasuunnitelmien hiomista", tr: "Teknik sorunlar, SSH ayarları ve Barselona planları" },
+      summary: {
+        en: "After learning why the robot training had stalled, I tried setting up SSH access to another Linux machine, but ran into network and permission issues. We then refined our Barcelona plans while waiting for confirmation about our keys.",
+        fi: "Selvitimme robottikoulutuksen hidastumisen syyn ja yritin ottaa SSH-yhteyttä toiseen Linux-koneeseen, mutta vastaan tuli verkko- ja käyttöoikeusongelmia. Sen jälkeen hioimme Barcelonan-suunnitelmia ja jäimme odottamaan kuittausta avaimista.",
+        tr: "Robot eğitiminin neden yavaşladığını öğrendikten sonra başka bir Linux makinesine SSH bağlantısı kurmayı denedim, ancak ağ ve izin sorunlarıyla karşılaştım. Ardından Barselona planlarımızı ayrıntılandırıp anahtarlarla ilgili onay beklemeye başladık."
+      },
+      paragraphs: {
+        en: [
+          "As soon as I woke up, I got back to the computer to continue yesterday’s work. Our supervisor, Emilio, replied about the problems we had run into and figured out why the training was crawling: apparently, we had not been using their powerful graphics card at all, and the memory on the machine we were using had run out. Emilio mentioned that there was another Linux machine on the network we could use if it was free.",
+          "We started checking and adjusting the settings again, but it felt as if every time we fixed one problem, another obstacle appeared. Once I finally got a clean start, I needed to get a proper remote connection working to the Linux environment (`nm-mac`).",
+          "Getting connected was a headache. First, my computer could not resolve the destination address because we were outside the laboratory’s local network. Emilio gave us detailed instructions for setting up the SSH config file and using a jump server. After we put the settings in place, the connection reached the jump server, but then stopped with a new error: `Permission denied` — as if our public SSH keys had not yet been accepted by the server.",
+          "Since Emilio promised to check the keys from the office the next day, we put the computers aside and focused on other things. The girls and I went through our upcoming Barcelona trip in much more detail. We also thought about the end of our exchange and realised that we should definitely spend the last two nights of the trip in Barcelona. Our return flight to Finland leaves so early in the morning that there is no way we could travel from Móra d’Ebre to Barcelona Airport overnight or in the early hours. Now all that was left was to wait for Emilio to confirm the keys and then get back to work!"
+        ],
+        fi: [
+          "Hyppäsin heti herättyäni koneen äärelle jatkamaan eilistä urakkaa. Työnohjaajamme Emilio vastasi eilisiin ongelmiimme ja selvitti, mistä koulutuksen mateleminen johtui: emme ilmeisesti käyttäneet lainkaan heidän tehokasta näytönohjaintaan, ja käytössä olleen koneen muisti oli päässyt loppumaan. Emilio vinkkasi, että verkon sisällä on toinenkin Linux-kone, jota voisimme hyödyntää, jos se olisi vapaana.",
+          "Aloimme tutkia ja korjata asetuksia uudelleen, mutta homma tuntui etenevän niin, että aina kun yhden ongelman sai ratkaistua, vastaan tuli heti jokin uusi mutka. Kun vihdoin pääsin aloittamaan puhtaalta pöydältä, minun piti saada etäyhteys toimimaan kunnolla Linux-ympäristöön (`nm-mac`).",
+          "Yhteyden muodostamisessa riitti päänvaivaa. Ensin tietokoneeni ei osannut tunnistaa kohdeosoitetta lainkaan, koska olimme laboratorion lähiverkon ulkopuolella. Saimme Emiliolta tarkat ohjeet SSH-asetustiedoston (`config`) määrittämiseen ja välityspalvelimen (*jump server*) käyttöön. Kun saimme asetukset paikoilleen, yhteys pääsi välityspalvelimelle asti mutta tyssäsi uuteen virheilmoitukseen (`Permission denied`), aivan kuin julkisia SSH-avaimiamme ei olisi vielä hyväksytty palvelimelle.",
+          "Koska Emilio lupasi tarkistaa avainten tilanteen seuraavana päivänä toimistolta käsin, laitoimme koneet sivuun ja keskityimme muihin asioihin. Kävimme tyttöjen kanssa tulevaa Barcelonan-reissuamme läpi paljon aiempaa tarkemmin. Pohdimme myös vaihtojakson loppupuolta ja tulimme siihen tulokseen, että meidän kannattaa ehdottomasti viettää matkamme viimeiset kaksi yötä Barcelonassa. Paluulentomme Suomeen lähtee niin aikaisin aamulla, ettemme millään ehtisi matkustaa Móra d’Ebrestä Barcelonan lentokentälle yön tai aikaisen aamun aikana. Nyt ei muuta kuin odotellaan Emilion kuittausta avaimista ja jatketaan hommia!"
+        ],
+        tr: [
+          "Uyanır uyanmaz dünkü işe devam etmek için bilgisayarın başına geçtim. Danışmanımız Emilio, karşılaştığımız sorunlarla ilgili yanıt verdi ve eğitimin neden bu kadar yavaş ilerlediğini buldu: görünüşe göre onların güçlü GPU'sunu hiç kullanmıyorduk ve kullandığımız makinenin belleği tükenmişti. Emilio, boş olması hâlinde ağdaki başka bir Linux makinesinden yararlanabileceğimizi söyledi.",
+          "Ayarları yeniden inceleyip düzeltmeye başladık, ancak bir sorunu çözdüğümüzde hemen başka bir pürüz çıkıyormuş gibi hissediyorduk. Sonunda temiz bir başlangıç yapabildiğimde, Linux ortamına (`nm-mac`) düzgün bir uzaktan bağlantı kurmam gerekiyordu.",
+          "Bağlantıyı kurmak epey uğraştırdı. Laboratuvarın yerel ağının dışında olduğumuz için bilgisayarım önce hedef adresi çözemedi. Emilio, SSH yapılandırma dosyasını (`config`) ayarlamak ve bir atlama sunucusu (*jump server*) kullanmak için bize ayrıntılı talimatlar verdi. Ayarları yaptıktan sonra bağlantı atlama sunucusuna kadar ulaştı, ancak yeni bir hata verdi: `Permission denied`. Sanki genel SSH anahtarlarımız sunucu tarafından henüz kabul edilmemişti.",
+          "Emilio anahtarların durumunu ertesi gün ofisten kontrol edeceğine söz verince bilgisayarları bir kenara bırakıp başka işlere odaklandık. Kızlarla birlikte yaklaşan Barselona gezimizi öncekinden çok daha ayrıntılı biçimde gözden geçirdik. Değişim programımızın sonunu da düşündük ve gezimizin son iki gecesini kesinlikle Barselona'da geçirmemiz gerektiğine karar verdik. Finlandiya'ya dönüş uçağımız sabah çok erken kalkıyor; bu nedenle gece ya da sabahın erken saatlerinde Móra d’Ebre'den Barselona Havalimanı'na gitmemiz mümkün olmazdı. Şimdi Emilio'nun anahtarlarla ilgili onayını bekleyip işe devam edeceğiz!"
+        ]
+      },
+      tags: ["internship", "programming", "remote work", "travel"],
+      imageAlt: { en: "Illustrated placeholder for SSH troubleshooting and Barcelona trip planning", fi: "Kuvituksellinen paikkamerkki SSH-yhteyden selvittelystä ja Barcelonan-matkan suunnittelusta", tr: "SSH sorunlarını giderme ve Barselona gezisi planlaması için temsili çizim" }
+    },
+    {
+      slug: "my-turn-at-robot-training-and-a-slow-run", date: "2026-11-06", category: "Internship", location: "Móra d’Ebre", image: "5_marras.jpg",
+      title: { en: "My Turn at Robot Training and a Slow Start", fi: "Omaa vuoroa robottikoulutuksen parissa ja vähän haasteitakin", tr: "Robot eğitimi sırası bende ve bazı zorluklar" },
+      summary: {
+        en: "I took over the simulation task after Emilia ran into project issues, but confusion about the steps left the training unexpectedly slow. After asking Emilio for advice, I decided to try again with a fresh mind the next day.",
+        fi: "Aloitin simulaatiotehtävän Emilian projektissa ilmenneiden ongelmien vuoksi, mutta vaiheiden kanssa oli haasteita ja koulutus eteni odottamattoman hitaasti. Kysyttyäni neuvoa Emiliolta päätin yrittää uudelleen seuraavana päivänä levänneenä.",
+        tr: "Emilia'nın projesinde sorunlar çıkınca simülasyon görevini devraldım; ancak adımları karıştırınca eğitim beklenmedik biçimde yavaş ilerledi. Emilio'ya danıştıktan sonra ertesi gün dinç bir kafayla yeniden denemeye karar verdim."
+      },
+      paragraphs: {
+        en: [
+          "It was my turn to get stuck into the work. Since Emilia had run into some problems with her project, we decided to switch turns, and I started working on simulation task #8.",
+          "I immediately had some difficulty getting all the commands and steps in the right order. I must have done something wrong somewhere at the beginning, because the training, which was supposed to run efficiently, was moving painfully slowly. It was meant to run for 80,000 steps, but by the time the whole day had gone by, the counter showed a mere five steps!",
+          "We contacted Emilio to ask for advice: was there a way to speed things up, or had we missed an important step? Since it was already getting very late and it had been a long day, I decided to take a breather and try again the next day with a fresh mind."
+        ],
+        fi: [
+          "Päivä oli minun vuoroni hypätä työn touhuun. Koska Emilialla oli ilmennyt omassa projektissaan ongelmia, päätimme vaihtaa vuoroa, ja minä aloitin simulaatiotehtävän #8 tekemisen.",
+          "Aluksi minulla oli haasteita sisäistää kaikkien komentojen ja vaiheiden järjestys. Tein varmasti jossain kohdassa jotain väärin, sillä tehokkaasti edetä tarkoitetun koulutuksen eteneminen oli tuskastuttavan hidasta. Koulutuksen piti kestää 80 000 askelta, mutta vaikka koko päivä oli jo kulunut, mittarissa oli vasta vaivaiset viisi askelta!",
+          "Otimme yhteyttä Emilioon ja kysyimme neuvoa: olisiko jokin keino nopeuttaa hommaa, tai olimmeko missanneet jonkin olennaisen vaiheen? Koska kello alkoi olla jo todella paljon ja päivä oli ollut pitkä, päätin rauhoittaa tilanteen ja ottaa uuden yrityksen heti seuraavana päivänä tuoreilla aivoilla."
+        ],
+        tr: [
+          "İşe koyulma sırası bendeydi. Emilia'nın kendi projesinde bazı sorunlar çıkınca sırayı değiştirmeye karar verdik ve simülasyon görevi #8'e ben başladım.",
+          "Başlangıçta tüm komutların ve adımların sırasını kavramakta zorlandım. Bir yerde yanlış bir şey yapmış olmalıyım; çünkü verimli ilerlemesi gereken eğitim can sıkıcı derecede yavaş ilerliyordu. Eğitimin 80.000 adım sürmesi gerekiyordu, ama koca gün geçmesine rağmen sayaçta yalnızca beş adım vardı!",
+          "Emilio'ya ulaşıp danıştık: işi hızlandırmanın bir yolu var mıydı, yoksa önemli bir adımı mı atlamıştık? Saat oldukça geç olduğu ve uzun bir gün geçirdiğimiz için durumu sakin karşılayıp ertesi gün dinç bir kafayla yeniden denemeye karar verdim."
+        ]
+      },
+      tags: ["internship", "robotics", "learning"],
+      imageAlt: { en: "Illustrated placeholder for troubleshooting a robot simulation training run", fi: "Kuvituksellinen paikkamerkki robottisimulaation koulutusajon ongelmanratkaisusta", tr: "Robot simülasyonu eğitimindeki sorunları gidermek için temsili çizim" }
+    },
+    {
+      slug: "simulation-training-and-barcelona-trip-planning", date: "2026-11-05", category: "Internship", location: "Móra d’Ebre", image: "6_marras.jpg",
+      title: { en: "Simulation Training and Planning a Trip to Barcelona", fi: "Simulaatiokoulutusta ja Barcelonan-matkan suunnittelua", tr: "Simülasyon eğitimi ve Barselona gezisi planları" },
+      summary: {
+        en: "While Emilia worked on the simulation training and Noora monitored the GPU, we planned a four-day work trip to Barcelona. I spent the rest of the day relaxing and reading while waiting for my turn.",
+        fi: "Emilian työskennellessä simulaatiokoulutuksen parissa ja Nooran valvoessa näytönohjainta suunnittelimme neljän päivän työmatkaa Barcelonaan. Loppupäivän luin ja otin rennosti omaa vuoroani odotellessa.",
+        tr: "Emilia simülasyon eğitimiyle uğraşırken Noora GPU'yu takip etti; biz de Barselona'ya yapacağımız dört günlük iş gezisini planladık. Sıramı beklerken günün geri kalanında kitap okuyup dinlendim."
+      },
+      paragraphs: {
+        en: [
+          "Thursday was a calm day. Emilia continued working on the simulation task, which was first in the queue (#8), while Noora kept a close eye on the GPU in the background to make sure it stayed stable and the training run was progressing as it should.",
+          "While the computers did their work and we waited for Emilia’s run to finish, the girls and I had plenty of time to plan our upcoming trip to Barcelona. We are hoping to go for four days, work directly from the main office and explore some new places at the same time. We talked about when would be the best time to go and what kind of accommodation would make the most sense: should we rent a shared Airbnb or book a hotel room?",
+          "We also looked at train tickets in advance. We chose times that would leave later trains available as a backup, since Spanish train schedules are not always completely reliable — as we had already discovered on the second day of the trip, according to my travel journal! Since Emilia was still busy with her training slot, I took it easy for the rest of the day, reading a book and recharging while waiting for my turn."
+        ],
+        fi: [
+          "Torstai sujui rauhallisesti. Emilia jatkoi ensimmäisenä vuorossa olevan simulaatiotehtävän (#8) parissa, kun taas Noora tarkkaili taustalla tiiviisti, että näytönohjain eli GPU pysyi vakaana ja koulutusajo eteni niin kuin piti.",
+          "Sillä aikaa kun koneet tekivät työtään ja odottelimme Emilian ajon valmistumista, meillä oli tyttöjen kanssa hyvin aikaa suunnitella tulevaa reissuamme Barcelonaan. Tarkoituksenamme on matkustaa sinne neljäksi päiväksi työskentelemään suoraan päätoimistolle ja samalla tutustumaan uusiin paikkoihin. Pohdimme yhdessä, milloin olisi paras ajankohta lähteä ja mikä olisi järkevin tapa majoittua: ottaisimmeko yhteisen Airbnb-asunnon vai varaisimmeko hotellihuoneen?",
+          "Katselimme myös junalippuja valmiiksi. Valitsimme sellaiset vuorot, joiden jälkeen kulkisi vielä myöhempiä junia varalla, sillä espanjalaisiin juna-aikatauluihin ei aina voi täysin luottaa — kuten matkapäiväkirjan toisena päivänä jo huomasimme! Koska Emilia oli edelleen kiinni omassa koulutusvuorossaan, otin loppupäivän rennosti kirjaa lukien ja akkuja ladaten omaa vuoroani odotellessa."
+        ],
+        tr: [
+          "Perşembe sakin geçti. Emilia sıradaki simülasyon görevi (#8) üzerinde çalışmaya devam ederken Noora, GPU'nun kararlı kaldığından ve eğitim sürecinin gerektiği gibi ilerlediğinden emin olmak için arka planda yakından takip etti.",
+          "Bilgisayarlar işlerini yaparken ve Emilia'nın eğitiminin bitmesini beklerken, kızlarla birlikte Barselona'ya yapacağımız yaklaşan geziyi planlamak için bolca vaktimiz oldu. Dört günlüğüne oraya gidip doğrudan merkez ofiste çalışmayı ve aynı zamanda yeni yerler keşfetmeyi düşünüyoruz. Ne zaman gitmenin en iyisi olacağını ve nerede kalmanın daha mantıklı olacağını konuştuk: ortak bir Airbnb evi mi kiralasak, yoksa otel odası mı ayırtsak?",
+          "Tren biletlerine de önceden göz attık. Yedek olarak daha geç saatlerde başka trenler de bulunacak seferleri seçtik; çünkü İspanya'daki tren saatlerine her zaman tamamen güvenilemiyor. Bunu gezi günlüğümün ikinci gününde zaten görmüştük! Emilia hâlâ kendi eğitim sırasındayken, ben de sıramı bekleyerek günün geri kalanında kitabımı okudum ve dinlendim."
+        ]
+      },
+      tags: ["internship", "robotics", "travel", "daily life"],
+      imageAlt: { en: "Illustrated placeholder for simulation training and planning a trip to Barcelona", fi: "Kuvituksellinen paikkamerkki simulaatiokoulutuksesta ja Barcelonan-matkan suunnittelusta", tr: "Simülasyon eğitimi ve Barselona gezisi planlaması için temsili çizim" }
+    },
+    {
+      slug: "project-work-and-an-evening-walk", date: "2026-11-04", category: "Internship", location: "Móra d’Ebre", image: "4_marras.jpg",
+      title: { en: "Project Work and an Evening Walk", fi: "Varsinaisten projektien kimppuun ja iltakävelyn ystävät", tr: "Asıl projelere başlamak ve akşam yürüyüşünde yeni dostlar" },
+      summary: {
+        en: "We finally got started on our internship projects, including a shared robotics simulation and my own data-reliability task. After a focused workday, an evening walk brought two small animal encounters.",
+        fi: "Pääsimme vihdoin aloittamaan harjoitteluprojektit: yhteisen robottisimulaation ja oman datan luotettavuuteen liittyvän tehtäväni. Keskittyneen työpäivän jälkeen iltakävelyllä vastaan tuli kaksi pientä eläinkaveria.",
+        tr: "Sonunda staj projelerimize başladık: ortak bir robot simülasyonu ve bana ait veri güvenilirliği görevi. Odaklı bir iş gününün ardından akşam yürüyüşünde iki küçük hayvan dostla karşılaştım."
+      },
+      paragraphs: {
+        en: [
+          "Once we had finally set up the connections to the workplace computer, we could properly get started on our actual internship tasks. Each of us has two clear goals for the next two weeks.",
+          "Our first shared task is to reproduce a robot-arm experiment that has already been shown to work in a simulation environment: the ACT cube task. Each of us will set up the required tools, LeRobot and PyTorch, prepare training data, train an AI model and test it in the simulation. The idea is to make sure we know how to use the tools before moving on to the real robot. We only have one powerful graphics card, and training a model takes several hours, so we cannot run multiple training sessions at once. The girls and I discussed how to divide the work: Emilia will start the first training run, while Noora coordinates the schedule.",
+          "I also have my own area of responsibility: making sure the data pipeline is reliable, under the task name “Never lose data again.” Previously, the team lost several sets of training data when the robot computer ran out of storage during a run. Now the robot automatically sends recordings to a separate data computer and only deletes its local copies after receiving confirmation that they have been saved. My job is to test the whole process in a safe test environment on my own computer, deliberately check how it handles problems such as a lost connection or a full disk, and verify that no files disappear.",
+          "During the day, I also practised more Python, since that is the language I will use to write this project’s code. Otherwise, the workday was calm and focused.",
+          "In the evening, I went for some fresh air and a short walk around the neighbourhood. Along the way, I made two little animal friends! First I met a sweet little cat who let me pet her peacefully. Further along, I spotted a small mouse on the ground. At first I thought it had died, because it froze in place and stared straight ahead. When I went a little closer, though, it suddenly scurried away. After a lovely evening walk, it was time to go to bed."
+        ],
+        fi: [
+          "Kun yhteydet työpaikan koneelle oli vihdoin saatu kuntoon, pääsimme kunnolla kiinni varsinaisiin harjoittelutehtäviimme. Seuraavien kahden viikon ajan jokaisella meistä on kaksi selkeää tavoitetta.",
+          "Ensimmäisenä yhteisenä tehtävänämme on toistaa simulaatioympäristössä toimivaksi todettu robottikäsikoe eli ACT-kuutiotehtävä. Käytännössä jokainen meistä asentaa tarvittavat työkalut, LeRobotin ja PyTorchin, rakentaa opetusdatan, kouluttaa oman tekoälymallin ja testaa sen toimivuuden simulaatiossa. Tarkoituksena on varmistaa, että osaamme käyttää työkaluja ennen kuin siirrymme oikean robotin pariin. Käytössämme on vain yksi tehokas näytönohjain, ja yhden mallin kouluttaminen kestää useita tunteja, joten emme voi ajaa koulutuksia samaan aikaan. Juttelimme tyttöjen kanssa työnjaosta ja päätimme, että Emilia aloittaa koulutuksen ensimmäisenä, kun taas Noora koordinoi vuorolistan.",
+          "Tämän lisäksi minulla on oma vastuualueeni datan käsittelyketjun luotettavuuden varmistamisessa. Tehtävän nimi on ”Never lose data again”. Aikaisemmin tiimi menetti useita opetusdatoja, kun robotin tietokoneen muisti täyttyi kesken ajon. Nykyään robotti lähettää tallenteet automaattisesti erilliselle datakoneelle ja poistaa omat kopionsa vasta saatuaan vahvistuksen tallennuksesta. Minun tehtäväni on testata koko ketjua turvallisessa testiympäristössä omalla koneellani, kokeilla tarkoituksella, miten järjestelmä kestää ongelmatilanteita, kuten yhteyden katkeamista tai täyttä levytilaa, ja varmistaa, ettei yksikään tiedosto katoa.",
+          "Päivän aikana harjoittelin myös lisää Python-ohjelmointia, sillä tulen kirjoittamaan tämän projektin koodit Pythonilla. Muuten työpäivä sujui rauhallisissa ja keskittyneissä merkeissä.",
+          "Illalla lähdin vielä pienelle happihyppelylle ja iltakävelylle lähialueelle. Matkan varrella sain kaksi pientä eläinkaveria! Ensin vastaan tuli suloinen pikkukissa, joka antoi minun rapsuttaa itseään ihan rauhassa. Jatkaessani matkaa huomasin maassa pienen hiiren. Luulin aluksi, että se oli menehtynyt, sillä se vain jähmettyi paikoilleen ja tuijotti suoraan eteenpäin. Kun menin hieman lähemmäs, se lähtikin vipeltämään vauhdilla karkuun. Mukavan iltakävelyn jälkeen oli aika käydä nukkumaan."
+        ],
+        tr: [
+          "İş yerindeki bilgisayara bağlantıları sonunda ayarlayınca asıl staj görevlerimize başlayabildik. Önümüzdeki iki hafta boyunca her birimizin iki net hedefi var.",
+          "İlk ortak görevimiz, simülasyon ortamında çalıştığı önceden doğrulanmış bir robot kolu deneyini, yani ACT küp görevini tekrarlamak. Her birimiz gerekli araçları (LeRobot ve PyTorch) kuracak, eğitim verilerini hazırlayacak, kendi yapay zekâ modelimizi eğitecek ve simülasyonda test edeceğiz. Amacımız gerçek robota geçmeden önce araçları kullanmayı iyice öğrenmek. Elimizde yalnızca güçlü bir ekran kartı var ve bir modelin eğitimi saatler sürdüğü için aynı anda birden fazla eğitim çalıştıramıyoruz. Kızlarla iş bölümünü konuştuk: ilk eğitime Emilia başlayacak, Noora ise sırayı koordine edecek.",
+          "Bunun yanında, veri işleme hattının güvenilirliğini sağlamak da benim sorumluluğumda. Görevin adı “Never lose data again”. Daha önce robot bilgisayarının depolama alanı çalışma sırasında dolunca ekip birkaç eğitim verisi setini kaybetmiş. Artık robot kayıtları otomatik olarak ayrı bir veri bilgisayarına gönderiyor ve kendi kopyalarını ancak kaydedildiklerine dair onay aldıktan sonra siliyor. Benim görevim tüm süreci kendi bilgisayarımda güvenli bir test ortamında sınamak, bağlantının kesilmesi ya da diskin dolması gibi sorunlara sistemin nasıl tepki verdiğini bilerek denemek ve hiçbir dosyanın kaybolmadığını doğrulamak.",
+          "Gün içinde Python programlama konusunda da biraz daha pratik yaptım; çünkü bu projenin kodlarını Python ile yazacağım. Onun dışında iş günü sakin ve odaklı geçti.",
+          "Akşam biraz temiz hava almak ve mahallede yürüyüş yapmak için dışarı çıktım. Yol boyunca iki küçük hayvan dost edindim! Önce usulca kendisini sevmeme izin veren sevimli bir kediyle karşılaştım. Yürümeye devam ederken yerde küçük bir fare gördüm. Kıpırdamadan durup karşıya baktığı için önce öldüğünü sandım. Biraz yaklaşınca hızla kaçmaya başladı. Güzel bir akşam yürüyüşünün ardından yatma vakti gelmişti."
+        ]
+      },
+      tags: ["internship", "robotics", "programming", "daily life"],
+      imageAlt: { en: "Illustrated placeholder for a day of robotics project work and an evening walk", fi: "Kuvituksellinen paikkamerkki robotiikkaprojektin työpäivästä ja iltakävelystä", tr: "Robotik proje çalışması ve akşam yürüyüşü için temsili çizim" }
+    },
+    {
+      slug: "weekly-cleaning-cafe-and-ssh-keys", date: "2026-11-03", category: "Experiences", location: "Móra d’Ebre", image: "3_marras.jpg",
+      title: { en: "Weekly Cleaning, a Café Break and SSH Keys", fi: "Viikkosiivous, kahvilahetki ja SSH-avainten säätöä", tr: "Haftalık temizlik, kafe molası ve SSH anahtarları" },
+      summary: {
+        en: "We tidied the apartment before its weekly cleaning, enjoyed a café break, and set up public SSH keys for remote work.",
+        fi: "Järjestelimme asuntoa viikkosiivousta varten, nautimme kahvilahetkestä ja laitoimme etätyöskentelyn SSH-avaimia kuntoon.",
+        tr: "Haftalık temizlik öncesinde daireyi toparladık, kafede mola verdik ve uzaktan çalışma için SSH anahtarlarını ayarladık."
+      },
+      paragraphs: {
+        en: [
+          "The girls and I woke up at around nine and carried on a little with the cleaning from the day before. We put the larger things away and tidied the apartment so everything would be ready for the owner to come and do the weekly cleaning.",
+          "Once we had finished getting things in order, we decided to get out of the way while the cleaning was being done. First we headed to a local café for an unhurried moment, then stopped by the shop. We came back to the apartment about three hours later and were in for a really pleasant surprise: it had not just had its sheets changed and a quick vacuum — the floors had been washed too, and everything was sparkling clean!",
+          "It was nice to take a short meal break in the clean apartment, after which we rolled up our sleeves and did some work. We took care of some important basics for remote work, such as creating public SSH keys and sharing them with Emilio, so we can work from our own computers and connect smoothly to the main computer at the workplace."
+        ],
+        fi: [
+          "Heräsimme tyttöjen kanssa noin kello yhdeksän ja jatkoimme hieman edellisen päivän siivousta. Raivasimme isoimmat tavarat paikoilleen ja järjestimme asuntoa, jotta kaikki olisi valmiina ennen kuin asunnon omistaja saapuisi tekemään viikoittaisen siivouksen.",
+          "Kun saimme omat järjestelymme tehtyä, päätimme lähteä pois siivoojan tieltä. Suuntasimme ensin paikalliseen kahvilaan nauttimaan kiireettömästä hetkestä ja poikkesimme sen jälkeen vielä kauppaan. Palasimme kämpille noin kolmen tunnin päästä, ja vastassa oli todella positiivinen yllätys: lakanoiden vaihdon ja pikaisen imuroinnin lisäksi lattiatkin oli pesty, ja kaikki paikat kiilsivät puhtauttaan!",
+          "Puhtaassa asunnossa oli mukava pitää pieni ruokatauko, minkä jälkeen käärimme hihat ja teimme hieman töitä. Hoidimme kuntoon tärkeitä etätyöskentelyn perusasioita. Loimme esimerkiksi julkiset SSH-avaimet ja jaoimme ne Emiliolle, jotta voimme jatkossa työskennellä omilta koneiltamme ja ottaa sujuvasti yhteyden työpaikan pääkoneelle."
+        ],
+        tr: [
+          "Kızlarla birlikte sabah saat dokuz civarında uyandık ve bir önceki gün başladığımız temizliğe biraz daha devam ettik. Büyük eşyaları yerlerine kaldırdık ve ev sahibimiz haftalık temizliği yapmaya gelmeden önce daireyi düzenledik.",
+          "Kendi düzenlemelerimizi bitirince temizlik sırasında evde olmayıp ortadan çekilmeye karar verdik. Önce sakin bir anın tadını çıkarmak için yerel bir kafeye gittik, ardından markete uğradık. Yaklaşık üç saat sonra daireye döndüğümüzde bizi çok güzel bir sürpriz bekliyordu: yalnızca çarşaflar değiştirilip hızlıca süpürülmemiş, yerler de silinmişti; her yer ışıl ışıl olmuştu!",
+          "Temiz dairede kısa bir yemek molası vermek güzeldi. Ardından kolları sıvayıp biraz çalıştık. Uzaktan çalışma için önemli temel işleri hallettik. Örneğin herkese açık SSH anahtarları oluşturup Emilio'yla paylaştık; böylece bundan sonra kendi bilgisayarlarımızdan çalışabilecek ve iş yerindeki ana bilgisayara sorunsuzca bağlanabileceğiz."
+        ]
+      },
+      tags: ["daily life", "remote work", "programming"],
+      imageAlt: { en: "Illustrated placeholder for weekly cleaning, a café break and remote-work setup", fi: "Kuvituksellinen paikkamerkki viikkosiivouksesta, kahvilahetkestä ja etätyön valmistelusta", tr: "Haftalık temizlik, kafe molası ve uzaktan çalışma hazırlığı için temsili çizim" }
+    },
+    {
+      slug: "getting-the-week-started-and-solving-the-internet-issue", date: "2026-11-02", category: "Experiences", location: "Móra d’Ebre", image: "2_marras.jpg",
+      title: { en: "Getting the Week Started and Solving the Internet Problem", fi: "Viikko käyntiin ja nettiongelma ratkaistua", tr: "Haftaya başlamak ve internet sorununu çözmek" },
+      summary: {
+        en: "A grocery run and a tidy-up gave way to an internet outage, but help from our landlord got the connection back and let me dive into learning new tools for the project.",
+        fi: "Kauppareissun ja siivouksen jälkeen nettiyhteys katkesi, mutta asunnon omistajan avulla yhteys saatiin toimimaan ja pääsin perehtymään projektin uusiin työkaluihin.",
+        tr: "Market alışverişi ve temizlikten sonra internet kesildi; ev sahibimizin yardımıyla bağlantı düzeldi ve projenin yeni araçlarını öğrenmeye koyuldum."
+      },
+      paragraphs: {
+        en: [
+          "The new week got off to an energetic start. Noora and I went to the grocery store first thing in the morning to stock up the cupboards for the days ahead. When we got home, we tidied the apartment so we could work more comfortably in a clean space, then sat down at our computers, ready to continue the project.",
+          "Unfortunately, we ran into an unpleasant surprise straight away: something had gone wrong with the apartment’s internet, and the connection was completely down. Since almost all our tools and research depended on being online, our work came to a standstill.",
+          "We did not let ourselves get stuck, though, and contacted the owner of the apartment. With his help and a bit of troubleshooting, we finally got the connection working again by the evening. Once the internet was back, I could really get going. I spent time researching the best and most efficient way to approach the work. I had quite a learning journey ahead of me, since I needed to get to grips with both completely new tools and a new programming language for the project. Learning so much took concentration, but it was rewarding to finally start building and understand the bigger picture better.",
+          "After an intense stretch of research and studying, it was nice to take a little break and catch my breath. I called home in Finland and had a relaxed catch-up with my family. I spent the rest of the day and evening unwinding and playing games with friends — a great way to clear my head after all the troubleshooting and learning."
+        ],
+        fi: [
+          "Uusi viikko lähti reippaasti käyntiin, kun kävimme heti aamusta Nooran kanssa ruokakaupassa täydentämässä asunnon kaappeja tulevien päivien varalle. Kotiin päästyämme siivosimme kämpän, jotta työskentely sujuisi mukavammin siistissä ympäristössä, ja istuimme koneiden ääreen valmiina jatkamaan projektia.",
+          "Valitettavasti kohtasimme heti ikävän yllätyksen: asunnossa oli ilmennyt jokin nettiongelma, eikä yhteys toiminut lainkaan. Koska melkein kaikki työkalut ja tiedonhaku vaativat nettiyhteyttä, töiden edistäminen jäi siltä erää täysin jumiin.",
+          "Emme kuitenkaan jääneet neuvottomiksi, vaan otimme yhteyttä asunnon omistajaan. Hänen avullaan ja pienellä säätämisellä saimme yhteyden vihdoin toimimaan iltaan mennessä. Kun netti alkoi taas pelittää, pääsin kunnolla vauhtiin. Syvennyin tutkimaan, miten työt kannattaisi toteuttaa parhaalla ja tehokkaimmalla mahdollisella tavalla. Edessä oli melkoinen oppimismatka, sillä minun piti ottaa projektia varten haltuun sekä täysin uusia työkaluja että uusi ohjelmointikieli. Vaikka uuden opettelu vaati paljon keskittymistä, oli palkitsevaa päästä vihdoin rakentamaan ja ymmärtämään kokonaisuutta paremmin.",
+          "Tehokkaan tutkimisen ja opiskelun jälkeen oli mukava pitää pieni tauko ja hengähtää. Soittelin kotiin Suomeen ja vaihdoin rauhassa kuulumisia perheen kanssa. Loppupäivä ja ilta kuluivat rennoissa merkeissä kavereiden kanssa pelatessa, mikä oli loistava tapa nollata ajatukset kaiken säätämisen ja uuden opettelun jälkeen."
+        ],
+        tr: [
+          "Yeni hafta enerjik bir şekilde başladı. Noora'yla sabah erkenden markete gidip önümüzdeki günler için evin mutfak dolaplarını doldurduk. Eve dönünce temiz bir ortamda daha rahat çalışabilmek için daireyi toparladık, ardından projeye devam etmeye hazır bir şekilde bilgisayarlarımızın başına oturduk.",
+          "Ne yazık ki hemen can sıkıcı bir sürprizle karşılaştık: dairede bir internet sorunu çıkmıştı ve bağlantı hiç çalışmıyordu. Araçlarımızın ve araştırmalarımızın neredeyse tamamı internet gerektirdiği için işlerimiz tamamen durdu.",
+          "Yine de çaresiz kalmadık ve dairenin sahibiyle iletişime geçtik. Onun yardımı ve biraz uğraşmamız sayesinde bağlantıyı akşama doğru yeniden çalıştırmayı başardık. İnternet gelince nihayet işe koyulabildim. Çalışmaları en iyi ve en verimli şekilde nasıl yapabileceğimi araştırmaya daldım. Proje için hem tamamen yeni araçları hem de yeni bir programlama dilini öğrenmem gerektiğinden önümde epey uzun bir öğrenme süreci vardı. Bu kadar yeni şey öğrenmek yoğunlaşmayı gerektirse de sonunda üretmeye başlayabilmek ve genel yapıyı daha iyi anlamak çok tatmin ediciydi.",
+          "Yoğun araştırma ve çalışmanın ardından kısa bir mola verip soluklanmak iyi geldi. Finlandiya'daki ailemi arayıp onlarla sakince sohbet ettim. Günün geri kalanı ve akşam, arkadaşlarımla oyun oynayıp rahatlayarak geçti. Tüm o uğraşın ve yeni şeyler öğrenmenin ardından kafamı dağıtmak için harika bir yoldu."
+        ]
+      },
+      tags: ["daily life", "programming", "learning"], imageAlt: { en: "Illustrated placeholder for a productive Monday and an internet problem", fi: "Kuvituksellinen paikkamerkki tehokkaasta maanantaista ja nettiongelmasta", tr: "Verimli bir pazartesi ve internet sorunu için temsili çizim" }
+    },
+    {
       slug: "finishing-the-week-and-evening-with-poli-and-friends", date: "2026-10-30", category: "Experiences", location: "Móra d’Ebre" , image: "6_paiva_kuva.jpg",
       title: { en: "Finishing the week’s work and an evening with Poli and friends", fi: "Työn viimeistelyä ja illanviettoa Polin ja muiden kanssa", tr: "Haftanın işlerini tamamlamak ve Poli ve arkadaşlarıyla akşam" },
       summary: {
